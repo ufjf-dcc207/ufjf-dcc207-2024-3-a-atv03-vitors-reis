@@ -23,7 +23,7 @@
 }
 
 .peso {
-    font-size: 2em;
+    font-size: 1.5em;
     grid-area: peso; 
     opacity: 0.7;
 }
@@ -32,5 +32,13 @@
     background-color: darkred;
     color: white;
     min-height: 1em;
-    grid-area: extincao; 
+    grid-area: extincao;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5em 1em;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
